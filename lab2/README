@@ -1,0 +1,20 @@
+README PART 1
+Code runs successfully
+I was able to output stderr and stdout together or separately
+I fixed the main by;
+-allowing "from" and "dest" to be taken from cmdline
+-checking if "from" and "dest" are valid integers and printing and error message if they aren't
+-checking if "from" and "dest" are the same and printing an error message if they are
+
+
+README PART 2 
+1. towers(4, 2, 1)
+
+2. 62 recursive calls
+
+3. 2 3
+
+4. towers(3, 2, 3)
+
+Answer: 255 lines will be printed to stdout
+

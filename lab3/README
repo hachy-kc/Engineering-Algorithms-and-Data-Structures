@@ -1,0 +1,30 @@
+Everything works! I was able get insertionSort and mergeSort to sort properly.
+
+InsertionSort - has been completed and works using the metrics header, it implements insertion sort
+and outputs the sorted array as well as the metrics for that specific sort.
+
+-Insertion Sort Analysis:
+
+Best Case - Ω(n)
+Best case for "1, 2, 3, 4, 5" is 4 comparisons, 0 swaps, and 10 copies.
+
+Average Case - O(n^2)
+Average case for “1, 3, 2, 5, 4” is 6 Comparisons, 2 Swaps and 10 Copy Operations.
+
+Worst Case - Ω(n) and O(n^2)
+Worst case for “5, 4, 3 ,2 ,1” is 10 Comparisons, 10 Swaps and 10 Copy Operations.
+
+MergeSort - has been partially completed, I was having a very difficult time getting it to not throw
+segmentation faults, the algorithm itself is sound, but there may be some properties of it that I may be
+over looking. It has been also completed with the metrics header.
+
+-Merge Sort Analysis:
+
+Best Case - O(nlogn) 
+Best case for “1, 2, 3, 4, 5” is 7 Comparisons, 12 Swaps and 5 Copy Operations.
+
+Average Case - O(nlogn) 
+Average case for “1, 3, 2, 5, 4” is results in 7 Comparisons, 12 Swaps and 5 Copy Operations.
+
+Worst Case - O(nlogn), (nlgn - n +1) comparisons
+Worst case for “5, 4, 3, 2, 1” is 5 Comparisons, 12 Swaps and 7 Copy Operations.
